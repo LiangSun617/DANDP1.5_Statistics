@@ -16,7 +16,7 @@ card_values = [1,2,3,4,5,6,7,8,9,10,10,10,10]*4
 
 The relative frequencies of the card values for a single draw is shown in the histogram below:
 
-![draw](image\draw.jpg)
+![draw](/image/draw.jpg)
 
 - The mean of the value distribution is 6.54.
 - The median of the value distribution is 7.00.
@@ -69,25 +69,25 @@ sample_sum = [22,11,11,24,18,23,9,25,6,18,17,12,24,22,26,10,19,13,25,27,8,19,8,1
 Here are some descriptive statistics from the sample:
 
 
-Estimate of population mean:  ![1](image\1.jpg)
+Estimate of population mean:  ![1](/image/1.jpg)
 
 Estimate of population median = 18.00
 
-Estimate of population variance: ![2](image\2.jpg)
+Estimate of population variance: ![2](/image/2.jpg)
 
-Estimate of population standard deviation: ![3](image\3.jpg)
+Estimate of population standard deviation: ![3](/image/3.jpg)
 
 
 The distribution of the values is presented in the histogram below:
 
-![3card_draw](image\draw3.jpg)
+![3card_draw](/image/draw3.jpg)
 
 
 By comparison, its shape looks quite different from the original distribution for single draw. The original distribution is highly skewed because the value 10 has much larger probability of getting drawn than other values. However, for each three-card draw, the sum value is a result of a mix of small and large values with different probilities. The difference between three-card draws thus become smaller and more even.
 
 The confidence interval at 90% confidence level is:
 
-![4](image\4.jpg)
+![4](/image/4.jpg)
 
 Put the values of the descriptive statistics we calculated above and get:
 
@@ -95,6 +95,6 @@ The 90% confidence interval is [6.16, 28.10], which means we expect 90% of the f
 
 To find the probability of getting a value at least 20,
 
-![5](5.jpg)
+![5](/image/5.jpg)
 
 From z-table, the probability for draws to have a value at least 20 is about 0.3336.
